@@ -6,14 +6,23 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.nav-title {
+  font-size: x-large;
 }
 
-* {
-  box-sizing: border-box;
+.nav-items {
+  color: aliceblue;
+  text-decoration: none aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: larger;
+  &:hover {
+    color: aliceblue;
+    background-color: grey;
+    border-radius: 0.5em;
+  }
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
